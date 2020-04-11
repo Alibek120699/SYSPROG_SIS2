@@ -1,0 +1,6 @@
+git checkout -b <branch_name>
+git pull origin master
+git add <changed_files>
+git commit -m "feat: <your_part_name>"
+git pull origin master
+git push origin <branch_name>
