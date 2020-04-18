@@ -33,3 +33,10 @@
 [15442.174601] usbcore: registered new interface driver SIS2_dev_driver
 [15471.940278] usbcore: deregistering interface driver SIS2_dev_driver
 [18140.211370] usbcore: registered new interface driver SIS2_dev_driver
+[14450.072223] usbcore: registered new interface driver SIS2_dev_driver
+[14459.846510] usbcore: deregistering interface driver SIS2_dev_driver
+[15009.103598] usbcore: registered new interface driver SIS2_dev_driver
+[15045.738552] usbcore: deregistering interface driver SIS2_dev_driver
+[15442.174601] usbcore: registered new interface driver SIS2_dev_driver
+[15471.940278] usbcore: deregistering interface driver SIS2_dev_driver
+[18140.211370] usbcore: registered new interface driver SIS2_dev_driver
