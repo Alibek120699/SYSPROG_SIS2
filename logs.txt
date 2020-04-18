@@ -1060,3 +1060,588 @@ first change[    0.356766] ACPI: bus type USB registered
 [13527.647940] USB: timer is on: nseconds = 74 
 [13527.647942] USB: Current time: 12:41:33
 [13528.668049] USB: timer is on: nseconds = 75 
+[    0.356766] ACPI: bus type USB registered
+[    0.646874] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.646900] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.646916] uhci_hcd: USB Universal Host Controller Interface driver
+[    0.647163] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+[    0.648424] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.03
+[    0.648425] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.648518] hub 1-0:1.0: USB hub found
+[    0.649921] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+[    0.649923] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+[    0.649955] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.03
+[    0.649956] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.650042] hub 2-0:1.0: USB hub found
+[    0.988581] usb 1-2: new low-speed USB device number 2 using xhci_hcd
+[    1.139946] usb 1-2: New USB device found, idVendor=046d, idProduct=c077, bcdDevice=72.00
+[    1.139948] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    1.139949] usb 1-2: Product: USB Optical Mouse
+[    1.268741] usb 1-4: new high-speed USB device number 3 using xhci_hcd
+[    1.329410] usb 1-4: New USB device found, idVendor=04f2, idProduct=b593, bcdDevice= 0.10
+[    1.329411] usb 1-4: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+[    1.460775] usb 1-6: new full-speed USB device number 4 using xhci_hcd
+[    1.614327] usb 1-6: New USB device found, idVendor=8087, idProduct=0a2a, bcdDevice= 0.03
+[    1.614329] usb 1-6: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.620703] input: Logitech USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:046D:C077.0002/input/input11
+[    1.620791] hid-generic 0003:046D:C077.0002: input,hidraw1: USB HID v1.11 Mouse [Logitech USB Optical Mouse] on usb-0000:00:14.0-2/input0
+[    1.620827] usbhid: USB HID core driver
+[   15.103104] USB Video Class driver (1.1.1)
+[ 9507.905277] usb 1-4: reset high-speed USB device number 3 using xhci_hcd
+[ 9508.193495] usb 1-2: reset low-speed USB device number 2 using xhci_hcd
+[ 9508.609515] usb 1-6: reset full-speed USB device number 4 using xhci_hcd
+[13451.866643] usbcore: registered new interface driver USB_dev_driver
+[13452.884022] USB: timer is on: nseconds = 1 
+[13452.884027] USB: Current time: 12:40:19
+[13453.609576] usb 1-2: USB disconnect, device number 2
+[13453.908124] USB: timer is on: nseconds = 2 
+[13453.908127] USB: Current time: 12:40:20
+[13454.932304] USB: timer is on: nseconds = 3 
+[13454.932309] USB: Current time: 12:40:21
+[13455.960355] USB: timer is on: nseconds = 4 
+[13455.960361] USB: Current time: 12:40:22
+[13456.756470] usb 1-2: new low-speed USB device number 5 using xhci_hcd
+[13456.908583] usb 1-2: New USB device found, idVendor=046d, idProduct=c077, bcdDevice=72.00
+[13456.908589] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[13456.908593] usb 1-2: Product: USB Optical Mouse
+[13456.911523] input: Logitech USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:046D:C077.0005/input/input32
+[13456.912106] hid-generic 0003:046D:C077.0005: input,hidraw1: USB HID v1.11 Mouse [Logitech USB Optical Mouse] on usb-0000:00:14.0-2/input0
+[13456.980472] USB: timer is on: nseconds = 5 
+[13456.980477] USB: Current time: 12:40:23
+[13458.004569] USB: timer is on: nseconds = 6 
+[13458.004574] USB: Current time: 12:40:24
+[13459.032691] USB: timer is on: nseconds = 7 
+[13459.032695] USB: Current time: 12:40:25
+[13460.052791] USB: timer is on: nseconds = 8 
+[13460.052794] USB: Current time: 12:40:26
+[13461.080886] USB: timer is on: nseconds = 9 
+[13461.080889] USB: Current time: 12:40:27
+[13462.101020] USB: timer is on: nseconds = 10 
+[13462.101027] USB: Current time: 12:40:28
+[13463.125101] USB: timer is on: nseconds = 11 
+[13463.125103] USB: Current time: 12:40:29
+[13464.153258] USB: timer is on: nseconds = 12 
+[13464.153262] USB: Current time: 12:40:30
+[13465.173358] USB: timer is on: nseconds = 13 
+[13465.173361] USB: Current time: 12:40:31
+[13466.197479] USB: timer is on: nseconds = 14 
+[13466.197481] USB: Current time: 12:40:32
+[13467.221569] USB: timer is on: nseconds = 15 
+[13467.221571] USB: Current time: 12:40:33
+[13468.249647] USB: timer is on: nseconds = 16 
+[13468.249650] USB: Current time: 12:40:34
+[13469.273773] USB: timer is on: nseconds = 17 
+[13469.273778] USB: Current time: 12:40:35
+[13470.293860] USB: timer is on: nseconds = 18 
+[13470.293863] USB: Current time: 12:40:36
+[13471.321968] USB: timer is on: nseconds = 19 
+[13471.321971] USB: Current time: 12:40:37
+[13472.342087] USB: timer is on: nseconds = 20 
+[13472.342092] USB: Current time: 12:40:38
+[13473.366237] USB: timer is on: nseconds = 21 
+[13473.366240] USB: Current time: 12:40:39
+[13474.390303] USB: timer is on: nseconds = 22 
+[13474.390308] USB: Current time: 12:40:40
+[13475.418455] USB: timer is on: nseconds = 23 
+[13475.418458] USB: Current time: 12:40:41
+[13476.438557] USB: timer is on: nseconds = 24 
+[13476.438559] USB: Current time: 12:40:42
+[13477.466696] USB: timer is on: nseconds = 25 
+[13477.466698] USB: Current time: 12:40:43
+[13478.486729] USB: timer is on: nseconds = 26 
+[13478.486732] USB: Current time: 12:40:44
+[13479.514841] USB: timer is on: nseconds = 27 
+[13479.514845] USB: Current time: 12:40:45
+[13480.535035] USB: timer is on: nseconds = 28 
+[13480.535037] USB: Current time: 12:40:46
+[13481.559063] USB: timer is on: nseconds = 29 
+[13481.559068] USB: Current time: 12:40:47
+[13482.583175] USB: timer is on: nseconds = 30 
+[13482.583181] USB: Current time: 12:40:48
+[13483.607301] USB: timer is on: nseconds = 31 
+[13483.607304] USB: Current time: 12:40:49
+[13484.631384] USB: timer is on: nseconds = 32 
+[13484.631387] USB: Current time: 12:40:50
+[13485.659489] USB: timer is on: nseconds = 33 
+[13485.659491] USB: Current time: 12:40:51
+[13486.679619] USB: timer is on: nseconds = 34 
+[13486.679623] USB: Current time: 12:40:52
+[13487.707742] USB: timer is on: nseconds = 35 
+[13487.707745] USB: Current time: 12:40:53
+[13488.727881] USB: timer is on: nseconds = 36 
+[13488.727885] USB: Current time: 12:40:54
+[13489.751935] USB: timer is on: nseconds = 37 
+[13489.751941] USB: Current time: 12:40:55
+[13490.776035] USB: timer is on: nseconds = 38 
+[13490.776038] USB: Current time: 12:40:56
+[13491.800160] USB: timer is on: nseconds = 39 
+[13491.800166] USB: Current time: 12:40:57
+[13492.824262] USB: timer is on: nseconds = 40 
+[13492.824267] USB: Current time: 12:40:58
+[13493.848400] USB: timer is on: nseconds = 41 
+[13493.848405] USB: Current time: 12:41:0
+[13494.872504] USB: timer is on: nseconds = 42 
+[13494.872507] USB: Current time: 12:41:1
+[13495.900587] USB: timer is on: nseconds = 43 
+[13495.900592] USB: Current time: 12:41:2
+[13496.920694] USB: timer is on: nseconds = 44 
+[13496.920700] USB: Current time: 12:41:3
+[13497.944799] USB: timer is on: nseconds = 45 
+[13497.944803] USB: Current time: 12:41:4
+[13498.968967] USB: timer is on: nseconds = 46 
+[13498.968971] USB: Current time: 12:41:5
+[13499.993064] USB: timer is on: nseconds = 47 
+[13499.993069] USB: Current time: 12:41:6
+[13501.017123] USB: timer is on: nseconds = 48 
+[13501.017127] USB: Current time: 12:41:7
+[13502.041297] USB: timer is on: nseconds = 49 
+[13502.041301] USB: Current time: 12:41:8
+[13503.065375] USB: timer is on: nseconds = 50 
+[13503.065379] USB: Current time: 12:41:9
+[13504.093501] USB: timer is on: nseconds = 51 
+[13504.093505] USB: Current time: 12:41:10
+[13505.113556] USB: timer is on: nseconds = 52 
+[13505.113559] USB: Current time: 12:41:11
+[13506.137687] USB: timer is on: nseconds = 53 
+[13506.137693] USB: Current time: 12:41:12
+[13507.161779] USB: timer is on: nseconds = 54 
+[13507.161785] USB: Current time: 12:41:13
+[13508.185891] USB: timer is on: nseconds = 55 
+[13508.185897] USB: Current time: 12:41:14
+[13509.209984] USB: timer is on: nseconds = 56 
+[13509.209986] USB: Current time: 12:41:15
+[13510.238120] USB: timer is on: nseconds = 57 
+[13510.238126] USB: Current time: 12:41:16
+[13511.258215] USB: timer is on: nseconds = 58 
+[13511.258217] USB: Current time: 12:41:17
+[13512.282335] USB: timer is on: nseconds = 59 
+[13512.282336] USB: Current time: 12:41:18
+[13513.310432] USB: timer is on: nseconds = 60 
+[13513.310437] USB: Current time: 12:41:19
+[13514.330594] USB: timer is on: nseconds = 61 
+[13514.330623] USB: Current time: 12:41:20
+[13515.358648] USB: timer is on: nseconds = 62 
+[13515.358653] USB: Current time: 12:41:21
+[13516.378818] USB: timer is on: nseconds = 63 
+[13516.378823] USB: Current time: 12:41:22
+[13517.406861] USB: timer is on: nseconds = 64 
+[13517.406865] USB: Current time: 12:41:23
+[13518.426972] USB: timer is on: nseconds = 65 
+[13518.426977] USB: Current time: 12:41:24
+[13519.451109] USB: timer is on: nseconds = 66 
+[13519.451116] USB: Current time: 12:41:25
+[13520.475179] USB: timer is on: nseconds = 67 
+[13520.475180] USB: Current time: 12:41:26
+[13521.503321] USB: timer is on: nseconds = 68 
+[13521.503328] USB: Current time: 12:41:27
+[13522.523407] USB: timer is on: nseconds = 69 
+[13522.523409] USB: Current time: 12:41:28
+[13523.547527] USB: timer is on: nseconds = 70 
+[13523.547534] USB: Current time: 12:41:29
+[13524.571629] USB: timer is on: nseconds = 71 
+[13524.571631] USB: Current time: 12:41:30
+[13525.595782] USB: timer is on: nseconds = 72 
+[13525.595789] USB: Current time: 12:41:31
+[13526.619829] USB: timer is on: nseconds = 73 
+[13526.619831] USB: Current time: 12:41:32
+[13527.647940] USB: timer is on: nseconds = 74 
+[13527.647942] USB: Current time: 12:41:33
+[13528.668049] USB: timer is on: nseconds = 75 
+[13528.668051] USB: Current time: 12:41:34
+[13529.692169] USB: timer is on: nseconds = 76 
+[13529.692173] USB: Current time: 12:41:35
+[13530.716271] USB: timer is on: nseconds = 77 
+[    0.356766] ACPI: bus type USB registered
+[    0.646874] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.646900] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.646916] uhci_hcd: USB Universal Host Controller Interface driver
+[    0.647163] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+[    0.648424] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.03
+[    0.648425] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.648518] hub 1-0:1.0: USB hub found
+[    0.649921] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+[    0.649923] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+[    0.649955] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.03
+[    0.649956] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.650042] hub 2-0:1.0: USB hub found
+[    0.988581] usb 1-2: new low-speed USB device number 2 using xhci_hcd
+[    1.139946] usb 1-2: New USB device found, idVendor=046d, idProduct=c077, bcdDevice=72.00
+[    1.139948] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    1.139949] usb 1-2: Product: USB Optical Mouse
+[    1.268741] usb 1-4: new high-speed USB device number 3 using xhci_hcd
+[    1.329410] usb 1-4: New USB device found, idVendor=04f2, idProduct=b593, bcdDevice= 0.10
+[    1.329411] usb 1-4: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+[    1.460775] usb 1-6: new full-speed USB device number 4 using xhci_hcd
+[    1.614327] usb 1-6: New USB device found, idVendor=8087, idProduct=0a2a, bcdDevice= 0.03
+[    1.614329] usb 1-6: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.620703] input: Logitech USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:046D:C077.0002/input/input11
+[    1.620791] hid-generic 0003:046D:C077.0002: input,hidraw1: USB HID v1.11 Mouse [Logitech USB Optical Mouse] on usb-0000:00:14.0-2/input0
+[    1.620827] usbhid: USB HID core driver
+[   15.103104] USB Video Class driver (1.1.1)
+[ 9507.905277] usb 1-4: reset high-speed USB device number 3 using xhci_hcd
+[ 9508.193495] usb 1-2: reset low-speed USB device number 2 using xhci_hcd
+[ 9508.609515] usb 1-6: reset full-speed USB device number 4 using xhci_hcd
+[13451.866643] usbcore: registered new interface driver USB_dev_driver
+[13452.884022] USB: timer is on: nseconds = 1 
+[13452.884027] USB: Current time: 12:40:19
+[13453.609576] usb 1-2: USB disconnect, device number 2
+[13453.908124] USB: timer is on: nseconds = 2 
+[13453.908127] USB: Current time: 12:40:20
+[13454.932304] USB: timer is on: nseconds = 3 
+[13454.932309] USB: Current time: 12:40:21
+[13455.960355] USB: timer is on: nseconds = 4 
+[13455.960361] USB: Current time: 12:40:22
+[13456.756470] usb 1-2: new low-speed USB device number 5 using xhci_hcd
+[13456.908583] usb 1-2: New USB device found, idVendor=046d, idProduct=c077, bcdDevice=72.00
+[13456.908589] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[13456.908593] usb 1-2: Product: USB Optical Mouse
+[13456.911523] input: Logitech USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:046D:C077.0005/input/input32
+[13456.912106] hid-generic 0003:046D:C077.0005: input,hidraw1: USB HID v1.11 Mouse [Logitech USB Optical Mouse] on usb-0000:00:14.0-2/input0
+[13456.980472] USB: timer is on: nseconds = 5 
+[13456.980477] USB: Current time: 12:40:23
+[13458.004569] USB: timer is on: nseconds = 6 
+[13458.004574] USB: Current time: 12:40:24
+[13459.032691] USB: timer is on: nseconds = 7 
+[13459.032695] USB: Current time: 12:40:25
+[13460.052791] USB: timer is on: nseconds = 8 
+[13460.052794] USB: Current time: 12:40:26
+[13461.080886] USB: timer is on: nseconds = 9 
+[13461.080889] USB: Current time: 12:40:27
+[13462.101020] USB: timer is on: nseconds = 10 
+[13462.101027] USB: Current time: 12:40:28
+[13463.125101] USB: timer is on: nseconds = 11 
+[13463.125103] USB: Current time: 12:40:29
+[13464.153258] USB: timer is on: nseconds = 12 
+[13464.153262] USB: Current time: 12:40:30
+[13465.173358] USB: timer is on: nseconds = 13 
+[13465.173361] USB: Current time: 12:40:31
+[13466.197479] USB: timer is on: nseconds = 14 
+[13466.197481] USB: Current time: 12:40:32
+[13467.221569] USB: timer is on: nseconds = 15 
+[13467.221571] USB: Current time: 12:40:33
+[13468.249647] USB: timer is on: nseconds = 16 
+[13468.249650] USB: Current time: 12:40:34
+[13469.273773] USB: timer is on: nseconds = 17 
+[13469.273778] USB: Current time: 12:40:35
+[13470.293860] USB: timer is on: nseconds = 18 
+[13470.293863] USB: Current time: 12:40:36
+[13471.321968] USB: timer is on: nseconds = 19 
+[13471.321971] USB: Current time: 12:40:37
+[13472.342087] USB: timer is on: nseconds = 20 
+[13472.342092] USB: Current time: 12:40:38
+[13473.366237] USB: timer is on: nseconds = 21 
+[13473.366240] USB: Current time: 12:40:39
+[13474.390303] USB: timer is on: nseconds = 22 
+[13474.390308] USB: Current time: 12:40:40
+[13475.418455] USB: timer is on: nseconds = 23 
+[13475.418458] USB: Current time: 12:40:41
+[13476.438557] USB: timer is on: nseconds = 24 
+[13476.438559] USB: Current time: 12:40:42
+[13477.466696] USB: timer is on: nseconds = 25 
+[13477.466698] USB: Current time: 12:40:43
+[13478.486729] USB: timer is on: nseconds = 26 
+[13478.486732] USB: Current time: 12:40:44
+[13479.514841] USB: timer is on: nseconds = 27 
+[13479.514845] USB: Current time: 12:40:45
+[13480.535035] USB: timer is on: nseconds = 28 
+[13480.535037] USB: Current time: 12:40:46
+[13481.559063] USB: timer is on: nseconds = 29 
+[13481.559068] USB: Current time: 12:40:47
+[13482.583175] USB: timer is on: nseconds = 30 
+[13482.583181] USB: Current time: 12:40:48
+[13483.607301] USB: timer is on: nseconds = 31 
+[13483.607304] USB: Current time: 12:40:49
+[13484.631384] USB: timer is on: nseconds = 32 
+[13484.631387] USB: Current time: 12:40:50
+[13485.659489] USB: timer is on: nseconds = 33 
+[13485.659491] USB: Current time: 12:40:51
+[13486.679619] USB: timer is on: nseconds = 34 
+[13486.679623] USB: Current time: 12:40:52
+[13487.707742] USB: timer is on: nseconds = 35 
+[13487.707745] USB: Current time: 12:40:53
+[13488.727881] USB: timer is on: nseconds = 36 
+[13488.727885] USB: Current time: 12:40:54
+[13489.751935] USB: timer is on: nseconds = 37 
+[13489.751941] USB: Current time: 12:40:55
+[13490.776035] USB: timer is on: nseconds = 38 
+[13490.776038] USB: Current time: 12:40:56
+[13491.800160] USB: timer is on: nseconds = 39 
+[13491.800166] USB: Current time: 12:40:57
+[13492.824262] USB: timer is on: nseconds = 40 
+[13492.824267] USB: Current time: 12:40:58
+[13493.848400] USB: timer is on: nseconds = 41 
+[13493.848405] USB: Current time: 12:41:0
+[13494.872504] USB: timer is on: nseconds = 42 
+[13494.872507] USB: Current time: 12:41:1
+[13495.900587] USB: timer is on: nseconds = 43 
+[13495.900592] USB: Current time: 12:41:2
+[13496.920694] USB: timer is on: nseconds = 44 
+[13496.920700] USB: Current time: 12:41:3
+[13497.944799] USB: timer is on: nseconds = 45 
+[13497.944803] USB: Current time: 12:41:4
+[13498.968967] USB: timer is on: nseconds = 46 
+[13498.968971] USB: Current time: 12:41:5
+[13499.993064] USB: timer is on: nseconds = 47 
+[13499.993069] USB: Current time: 12:41:6
+[13501.017123] USB: timer is on: nseconds = 48 
+[13501.017127] USB: Current time: 12:41:7
+[13502.041297] USB: timer is on: nseconds = 49 
+[13502.041301] USB: Current time: 12:41:8
+[13503.065375] USB: timer is on: nseconds = 50 
+[13503.065379] USB: Current time: 12:41:9
+[13504.093501] USB: timer is on: nseconds = 51 
+[13504.093505] USB: Current time: 12:41:10
+[13505.113556] USB: timer is on: nseconds = 52 
+[13505.113559] USB: Current time: 12:41:11
+[13506.137687] USB: timer is on: nseconds = 53 
+[13506.137693] USB: Current time: 12:41:12
+[13507.161779] USB: timer is on: nseconds = 54 
+[13507.161785] USB: Current time: 12:41:13
+[13508.185891] USB: timer is on: nseconds = 55 
+[13508.185897] USB: Current time: 12:41:14
+[13509.209984] USB: timer is on: nseconds = 56 
+[13509.209986] USB: Current time: 12:41:15
+[13510.238120] USB: timer is on: nseconds = 57 
+[13510.238126] USB: Current time: 12:41:16
+[13511.258215] USB: timer is on: nseconds = 58 
+[13511.258217] USB: Current time: 12:41:17
+[13512.282335] USB: timer is on: nseconds = 59 
+[13512.282336] USB: Current time: 12:41:18
+[13513.310432] USB: timer is on: nseconds = 60 
+[13513.310437] USB: Current time: 12:41:19
+[13514.330594] USB: timer is on: nseconds = 61 
+[13514.330623] USB: Current time: 12:41:20
+[13515.358648] USB: timer is on: nseconds = 62 
+[13515.358653] USB: Current time: 12:41:21
+[13516.378818] USB: timer is on: nseconds = 63 
+[13516.378823] USB: Current time: 12:41:22
+[13517.406861] USB: timer is on: nseconds = 64 
+[13517.406865] USB: Current time: 12:41:23
+[13518.426972] USB: timer is on: nseconds = 65 
+[13518.426977] USB: Current time: 12:41:24
+[13519.451109] USB: timer is on: nseconds = 66 
+[13519.451116] USB: Current time: 12:41:25
+[13520.475179] USB: timer is on: nseconds = 67 
+[13520.475180] USB: Current time: 12:41:26
+[13521.503321] USB: timer is on: nseconds = 68 
+[13521.503328] USB: Current time: 12:41:27
+[13522.523407] USB: timer is on: nseconds = 69 
+[13522.523409] USB: Current time: 12:41:28
+[13523.547527] USB: timer is on: nseconds = 70 
+[13523.547534] USB: Current time: 12:41:29
+[13524.571629] USB: timer is on: nseconds = 71 
+[13524.571631] USB: Current time: 12:41:30
+[13525.595782] USB: timer is on: nseconds = 72 
+[13525.595789] USB: Current time: 12:41:31
+[13526.619829] USB: timer is on: nseconds = 73 
+[13526.619831] USB: Current time: 12:41:32
+[13527.647940] USB: timer is on: nseconds = 74 
+[13527.647942] USB: Current time: 12:41:33
+[13528.668049] USB: timer is on: nseconds = 75 
+[13528.668051] USB: Current time: 12:41:34
+[13529.692169] USB: timer is on: nseconds = 76 
+[13529.692173] USB: Current time: 12:41:35
+[13530.716271] USB: timer is on: nseconds = 77 
+[13530.716273] USB: Current time: 12:41:36
+[13531.740434] USB: timer is on: nseconds = 78 
+[13531.740439] USB: Current time: 12:41:37
+[13532.768483] USB: timer is on: nseconds = 79 
+[    0.356766] ACPI: bus type USB registered
+[    0.646874] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.646900] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.646916] uhci_hcd: USB Universal Host Controller Interface driver
+[    0.647163] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+[    0.648424] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.03
+[    0.648425] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.648518] hub 1-0:1.0: USB hub found
+[    0.649921] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+[    0.649923] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+[    0.649955] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.03
+[    0.649956] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.650042] hub 2-0:1.0: USB hub found
+[    0.988581] usb 1-2: new low-speed USB device number 2 using xhci_hcd
+[    1.139946] usb 1-2: New USB device found, idVendor=046d, idProduct=c077, bcdDevice=72.00
+[    1.139948] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    1.139949] usb 1-2: Product: USB Optical Mouse
+[    1.268741] usb 1-4: new high-speed USB device number 3 using xhci_hcd
+[    1.329410] usb 1-4: New USB device found, idVendor=04f2, idProduct=b593, bcdDevice= 0.10
+[    1.329411] usb 1-4: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+[    1.460775] usb 1-6: new full-speed USB device number 4 using xhci_hcd
+[    1.614327] usb 1-6: New USB device found, idVendor=8087, idProduct=0a2a, bcdDevice= 0.03
+[    1.614329] usb 1-6: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.620703] input: Logitech USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:046D:C077.0002/input/input11
+[    1.620791] hid-generic 0003:046D:C077.0002: input,hidraw1: USB HID v1.11 Mouse [Logitech USB Optical Mouse] on usb-0000:00:14.0-2/input0
+[    1.620827] usbhid: USB HID core driver
+[   15.103104] USB Video Class driver (1.1.1)
+[ 9507.905277] usb 1-4: reset high-speed USB device number 3 using xhci_hcd
+[ 9508.193495] usb 1-2: reset low-speed USB device number 2 using xhci_hcd
+[ 9508.609515] usb 1-6: reset full-speed USB device number 4 using xhci_hcd
+[13451.866643] usbcore: registered new interface driver USB_dev_driver
+[13452.884022] USB: timer is on: nseconds = 1 
+[13452.884027] USB: Current time: 12:40:19
+[13453.609576] usb 1-2: USB disconnect, device number 2
+[13453.908124] USB: timer is on: nseconds = 2 
+[13453.908127] USB: Current time: 12:40:20
+[13454.932304] USB: timer is on: nseconds = 3 
+[13454.932309] USB: Current time: 12:40:21
+[13455.960355] USB: timer is on: nseconds = 4 
+[13455.960361] USB: Current time: 12:40:22
+[13456.756470] usb 1-2: new low-speed USB device number 5 using xhci_hcd
+[13456.908583] usb 1-2: New USB device found, idVendor=046d, idProduct=c077, bcdDevice=72.00
+[13456.908589] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[13456.908593] usb 1-2: Product: USB Optical Mouse
+[13456.911523] input: Logitech USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:046D:C077.0005/input/input32
+[13456.912106] hid-generic 0003:046D:C077.0005: input,hidraw1: USB HID v1.11 Mouse [Logitech USB Optical Mouse] on usb-0000:00:14.0-2/input0
+[13456.980472] USB: timer is on: nseconds = 5 
+[13456.980477] USB: Current time: 12:40:23
+[13458.004569] USB: timer is on: nseconds = 6 
+[13458.004574] USB: Current time: 12:40:24
+[13459.032691] USB: timer is on: nseconds = 7 
+[13459.032695] USB: Current time: 12:40:25
+[13460.052791] USB: timer is on: nseconds = 8 
+[13460.052794] USB: Current time: 12:40:26
+[13461.080886] USB: timer is on: nseconds = 9 
+[13461.080889] USB: Current time: 12:40:27
+[13462.101020] USB: timer is on: nseconds = 10 
+[13462.101027] USB: Current time: 12:40:28
+[13463.125101] USB: timer is on: nseconds = 11 
+[13463.125103] USB: Current time: 12:40:29
+[13464.153258] USB: timer is on: nseconds = 12 
+[13464.153262] USB: Current time: 12:40:30
+[13465.173358] USB: timer is on: nseconds = 13 
+[13465.173361] USB: Current time: 12:40:31
+[13466.197479] USB: timer is on: nseconds = 14 
+[13466.197481] USB: Current time: 12:40:32
+[13467.221569] USB: timer is on: nseconds = 15 
+[13467.221571] USB: Current time: 12:40:33
+[13468.249647] USB: timer is on: nseconds = 16 
+[13468.249650] USB: Current time: 12:40:34
+[13469.273773] USB: timer is on: nseconds = 17 
+[13469.273778] USB: Current time: 12:40:35
+[13470.293860] USB: timer is on: nseconds = 18 
+[13470.293863] USB: Current time: 12:40:36
+[13471.321968] USB: timer is on: nseconds = 19 
+[13471.321971] USB: Current time: 12:40:37
+[13472.342087] USB: timer is on: nseconds = 20 
+[13472.342092] USB: Current time: 12:40:38
+[13473.366237] USB: timer is on: nseconds = 21 
+[13473.366240] USB: Current time: 12:40:39
+[13474.390303] USB: timer is on: nseconds = 22 
+[13474.390308] USB: Current time: 12:40:40
+[13475.418455] USB: timer is on: nseconds = 23 
+[13475.418458] USB: Current time: 12:40:41
+[13476.438557] USB: timer is on: nseconds = 24 
+[13476.438559] USB: Current time: 12:40:42
+[13477.466696] USB: timer is on: nseconds = 25 
+[13477.466698] USB: Current time: 12:40:43
+[13478.486729] USB: timer is on: nseconds = 26 
+[13478.486732] USB: Current time: 12:40:44
+[13479.514841] USB: timer is on: nseconds = 27 
+[13479.514845] USB: Current time: 12:40:45
+[13480.535035] USB: timer is on: nseconds = 28 
+[13480.535037] USB: Current time: 12:40:46
+[13481.559063] USB: timer is on: nseconds = 29 
+[13481.559068] USB: Current time: 12:40:47
+[13482.583175] USB: timer is on: nseconds = 30 
+[13482.583181] USB: Current time: 12:40:48
+[13483.607301] USB: timer is on: nseconds = 31 
+[13483.607304] USB: Current time: 12:40:49
+[13484.631384] USB: timer is on: nseconds = 32 
+[13484.631387] USB: Current time: 12:40:50
+[13485.659489] USB: timer is on: nseconds = 33 
+[13485.659491] USB: Current time: 12:40:51
+[13486.679619] USB: timer is on: nseconds = 34 
+[13486.679623] USB: Current time: 12:40:52
+[13487.707742] USB: timer is on: nseconds = 35 
+[13487.707745] USB: Current time: 12:40:53
+[13488.727881] USB: timer is on: nseconds = 36 
+[13488.727885] USB: Current time: 12:40:54
+[13489.751935] USB: timer is on: nseconds = 37 
+[13489.751941] USB: Current time: 12:40:55
+[13490.776035] USB: timer is on: nseconds = 38 
+[13490.776038] USB: Current time: 12:40:56
+[13491.800160] USB: timer is on: nseconds = 39 
+[13491.800166] USB: Current time: 12:40:57
+[13492.824262] USB: timer is on: nseconds = 40 
+[13492.824267] USB: Current time: 12:40:58
+[13493.848400] USB: timer is on: nseconds = 41 
+[13493.848405] USB: Current time: 12:41:0
+[13494.872504] USB: timer is on: nseconds = 42 
+[13494.872507] USB: Current time: 12:41:1
+[13495.900587] USB: timer is on: nseconds = 43 
+[13495.900592] USB: Current time: 12:41:2
+[13496.920694] USB: timer is on: nseconds = 44 
+[13496.920700] USB: Current time: 12:41:3
+[13497.944799] USB: timer is on: nseconds = 45 
+[13497.944803] USB: Current time: 12:41:4
+[13498.968967] USB: timer is on: nseconds = 46 
+[13498.968971] USB: Current time: 12:41:5
+[13499.993064] USB: timer is on: nseconds = 47 
+[13499.993069] USB: Current time: 12:41:6
+[13501.017123] USB: timer is on: nseconds = 48 
+[13501.017127] USB: Current time: 12:41:7
+[13502.041297] USB: timer is on: nseconds = 49 
+[13502.041301] USB: Current time: 12:41:8
+[13503.065375] USB: timer is on: nseconds = 50 
+[13503.065379] USB: Current time: 12:41:9
+[13504.093501] USB: timer is on: nseconds = 51 
+[13504.093505] USB: Current time: 12:41:10
+[13505.113556] USB: timer is on: nseconds = 52 
+[13505.113559] USB: Current time: 12:41:11
+[13506.137687] USB: timer is on: nseconds = 53 
+[13506.137693] USB: Current time: 12:41:12
+[13507.161779] USB: timer is on: nseconds = 54 
+[13507.161785] USB: Current time: 12:41:13
+[13508.185891] USB: timer is on: nseconds = 55 
+[13508.185897] USB: Current time: 12:41:14
+[13509.209984] USB: timer is on: nseconds = 56 
+[13509.209986] USB: Current time: 12:41:15
+[13510.238120] USB: timer is on: nseconds = 57 
+[13510.238126] USB: Current time: 12:41:16
+[13511.258215] USB: timer is on: nseconds = 58 
+[13511.258217] USB: Current time: 12:41:17
+[13512.282335] USB: timer is on: nseconds = 59 
+[13512.282336] USB: Current time: 12:41:18
+[13513.310432] USB: timer is on: nseconds = 60 
+[13513.310437] USB: Current time: 12:41:19
+[13514.330594] USB: timer is on: nseconds = 61 
+[13514.330623] USB: Current time: 12:41:20
+[13515.358648] USB: timer is on: nseconds = 62 
+[13515.358653] USB: Current time: 12:41:21
+[13516.378818] USB: timer is on: nseconds = 63 
+[13516.378823] USB: Current time: 12:41:22
+[13517.406861] USB: timer is on: nseconds = 64 
+[13517.406865] USB: Current time: 12:41:23
+[13518.426972] USB: timer is on: nseconds = 65 
+[13518.426977] USB: Current time: 12:41:24
+[13519.451109] USB: timer is on: nseconds = 66 
+[13519.451116] USB: Current time: 12:41:25
+[13520.475179] USB: timer is on: nseconds = 67 
+[13520.475180] USB: Current time: 12:41:26
+[13521.503321] USB: timer is on: nseconds = 68 
+[13521.503328] USB: Current time: 12:41:27
+[13522.523407] USB: timer is on: nseconds = 69 
+[13522.523409] USB: Current time: 12:41:28
+[13523.547527] USB: timer is on: nseconds = 70 
+[13523.547534] USB: Current time: 12:41:29
+[13524.571629] USB: timer is on: nseconds = 71 
+[13524.571631] USB: Current time: 12:41:30
+[13525.595782] USB: timer is on: nseconds = 72 
+[13525.595789] USB: Current time: 12:41:31
+[13526.619829] USB: timer is on: nseconds = 73 
+[13526.619831] USB: Current time: 12:41:32
+[13527.647940] USB: timer is on: nseconds = 74 
+[13527.647942] USB: Current time: 12:41:33
+[13528.668049] USB: timer is on: nseconds = 75 
+[13528.668051] USB: Current time: 12:41:34
+[13529.692169] USB: timer is on: nseconds = 76 
+[13529.692173] USB: Current time: 12:41:35
+[13530.716271] USB: timer is on: nseconds = 77 
+[13530.716273] USB: Current time: 12:41:36
+[13531.740434] USB: timer is on: nseconds = 78 
+[13531.740439] USB: Current time: 12:41:37
+[13532.768483] USB: timer is on: nseconds = 79 
+[13532.768485] USB: Current time: 12:41:38
+[13533.788621] USB: timer is on: nseconds = 80 
+[13533.788627] USB: Current time: 12:41:39
+[13534.812699] USB: timer is on: nseconds = 81 
