@@ -28,13 +28,13 @@ static void timer_handler(struct timer_list *t1) {
 
 static int dev_probe(struct usb_interface *interface, const struct usb_device_id *id)
 {
-    printk(KERN_INFO "SIS1 Dev drive (%04X:%04X) plugged\n", id->idVendor, id->idProduct);
+    printk(KERN_INFO "SIS2 Dev drive (%04X:%04X) plugged\n", id->idVendor, id->idProduct);
     return 0;
 }
 
 static void dev_disconnect(struct usb_interface *interface)
 {
-    printk(KERN_INFO "SIS1 Dev drive removed\n");
+    printk(KERN_INFO "SIS2 Dev drive removed\n");
 }
 
 
@@ -51,7 +51,7 @@ MODULE_DEVICE_TABLE (usb, dev_table);
 
 static struct usb_driver dev_driver =
 {
-    .name = "SIS1_dev_driver",
+    .name = "SIS2_dev_driver",
     .id_table = dev_table,
     .probe = dev_probe,
     .disconnect = dev_disconnect,
